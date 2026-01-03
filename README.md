@@ -1,16 +1,51 @@
-# React + Vite
+# React + Vite Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application built with React and Vite, providing a fast development environment with Hot Module Replacement (HMR) and a pre-configured ESLint setup.
 
-Currently, two official plugins are available:
+## 🚀 Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
 
-## React Compiler
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- npm, yarn, or pnpm
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Installation
 
-## Expanding the ESLint configuration
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Development
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+### Build
+
+Create a production-ready build:
+
+```bash
+npm run build
+```
+
+## 🛠️ Tech Stack & Plugins
+
+This template utilizes the official Vite plugins for React development:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react): Uses [Babel](https://babeljs.io/) for Fast Refresh.
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc): Uses [SWC](https://swc.rs/) for Fast Refresh.
+
+### React Compiler
+
+The React Compiler is not enabled by default to optimize performance. To integrate it into your workflow, follow the [official installation guide](https://react.dev/learn/react-compiler/installation).
+
+## 🧹 Code Quality
+
+The project includes a minimal ESLint configuration. For production-grade applications, we recommend:
+
+1.  **TypeScript**: Migrate to TypeScript for better type safety.
+2.  **Type-aware Linting**: Enable type-aware rules via [`typescript-eslint`](https://typescript-eslint.io).
+3.  **TS Template**: Refer to the [official Vite React-TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for reference.
